@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <title>Calculadora</title>
+</head>
+<body>
+    <script language="JavaScript" src="funcional.js"></script>
+    <header><h1>Calculadora</h1></header>
+    <section class="back">
+        <form action="" name="calculadora" class="form">
+            <div id="calc">
+                <input type="text" id="visor" name="visor">
+                <div id="first">
+                    <input type="button" value="7" class="button border" onclick="button(value)">
+                    <input type="button" value="8" class="button border" onclick="button(value)">
+                    <input type="button" value="9" class="button border" onclick="button(value)">
+                    <input type="button" value="/" class="button border" onclick="button(value)">
+                </div>
+                <div id="second">
+                    <input type="button" value="4" class="button border" onclick="button(value)">
+                    <input type="button" value="5" class="button border" onclick="button(value)">
+                    <input type="button" value="6" class="button border" onclick="button(value)">
+                    <input type="button" value="*" class="button border" onclick="button(value)">
+                </div>
+                <div id="third">
+                    <input type="button" value="1" class="button border" onclick="button(value)">
+                    <input type="button" value="2" class="button border" onclick="button(value)">
+                    <input type="button" value="3" class="button border" onclick="button(value)">
+                    <input type="button" value="-" class="button border" onclick="button(value)">
+                </div>
+                <div id="fourth">
+                    <input type="button" value="C" class="button border" onclick="reseta()" style="background-color: #e52a14;">
+                    <input type="button" value="0" class="button border" onclick="button(value)">
+                    <input type="button" value="=" class="button border" onclick="calcula()" style="background-color: #114ae1;">
+                    <input type="button" value="+" class="button border" onclick="button(value)">
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
